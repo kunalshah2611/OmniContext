@@ -1,0 +1,20 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <!-- add other files if needed -->
+  </welcome-file-list>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>UserFormServlet</servlet-name>
+    <servlet-class>UserFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserFormServlet</servlet-name>
+    <url-pattern>/abc.html</url-pattern>
+  </servlet-mapping>
+</web-app>
